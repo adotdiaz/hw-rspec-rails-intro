@@ -14,6 +14,7 @@ gem 'faraday', '1.8.0'  # in main group; simplifies calling TMDb
 group :test do
   gem 'rails-controller-testing'
   gem 'guard-rspec'                 # automates re-running tests
+  gem 'webmock', '2.3.2'
 end
 
 # for Heroku deployment - as described in Ap. A of ELLS book
